@@ -6,7 +6,7 @@ import { Roles } from './roles.decorator';
 import { RolesGuard } from './roles.guard';
 import { UserRole } from './entities/user-role.enum';
 
-@Controller('user')
+@Controller('users')
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
